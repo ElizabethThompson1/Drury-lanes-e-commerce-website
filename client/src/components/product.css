@@ -1,0 +1,20 @@
+.border{
+    border: 0ch #e4e4e4;
+    height: 300px;
+    margin-bottom: 4px;
+    overflow: hidden;
+
+}
+.clothing{
+    width:200px;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    max-height: 160px;
+}
+.image:hover{
+    max-height: 190px;
+    transition-duration: 600ms;
+}
