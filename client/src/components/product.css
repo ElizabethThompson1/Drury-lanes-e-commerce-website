@@ -13,6 +13,7 @@
     max-height: 160px;
     margin-top: 5px;
     margin-bottom: 0px;
+    margin-left: 40px;
 }
 .image:hover{
     max-height: 190px;
@@ -25,7 +26,7 @@
     float: right;
     height: 30px;
     width: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 .eye{
     margin-left: 5px;
@@ -38,7 +39,7 @@
     margin-left: 0px;
     display: flex;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 170px;
     margin-top: 10px;
     flex-direction: column;
     visibility: hidden;
@@ -48,4 +49,18 @@
 }
 .border::before .button-container{
     visibility: visible;
+}
+.product-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1px;
+    color: black;
+    font-size: 1.3rem;
+}
+.category{
+    text-size-adjust: small;
+    text-transform: capitalize;
+    color: rgb(152, 150, 150);
+}
+.price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

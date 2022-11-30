@@ -10,7 +10,7 @@ const Product = ({product}) => {
     console.log(product);
     
     return(
-        <div>
+        <div className="">
             <div className="border">
                 <div className="button-container" >
                     <button className="button">
@@ -25,6 +25,11 @@ const Product = ({product}) => {
                     <img className="image" src={image} alt="clothing"/>
                 </div>
             </div>  
+            <div className="category">{category}</div>
+            <Link style={{textDecoration: 'none'}} to={`/product/${id}`}>
+                <h2 className="product-title">{title}</h2>
+            </Link>
+            <div className="price">${price}</div>
         </div> 
     );
 };
