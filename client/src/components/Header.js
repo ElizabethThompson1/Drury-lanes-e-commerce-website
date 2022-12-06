@@ -1,8 +1,12 @@
 import React from "react";
+import Sidebar from "./Sidebar";
 
 const Header = () => {
     return(
-    <div>Header</div>
+    <div>
+        <div>Header</div>
+        <Sidebar/>
+    </div>
     ); 
 };
 
